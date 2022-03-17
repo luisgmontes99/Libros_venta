@@ -2,18 +2,30 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>TIENDA</title>
+    <title>BOOKNLINE</title>
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<div class="noticia1">
+    <img class="usuario" src="img/usuario.webp">
+    <aside>
+        <br>
+        Nombre = Luis Gerardo Montes Gutierrez <br>
+        Nivel = Lector Principiante <br>
+        Compras realizacadas = 1 <br>
+    </aside>
+    <div class="reset"></div>
+</div>
 <div id="encabezado">
     <h1> TIENDA DE LIBROS ONLINE</h1>
 </div>
 <div class="field" id="searchform">
-    <input type="text" id="searchterm" placeholder="Escribe aqui...." />
-    <button type="button" id="search">BUSCAR</button>
+    <input type="text" id="searchterm" placeholder="Escribe tu libro aquí..." />
+    <button type="button" id="search"    onclick="window.location.href='busqueda.html'">Buscar!</button>
 </div>
-<h2 id="palabra1">Dame el nombre del libro y lo busco por ti</h2>
 <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<h2 id="palabra1">Dame el nombre del libro y lo busco por ti</h2>
+<a class="boton" onclick="window.location.href=''" target="_blank">INCIAR SESION</a>
+
 </body>
 </html>

@@ -2,6 +2,22 @@
 body{
     background-color: #DFFFD6;
 }
+
+div.noticia1 {
+    width: auto;
+    background-color: #E8D7FF;
+    text-align: center ;
+    justify-content: center;
+    display: flex;
+}
+
+div.noticia1 img.usuario{
+    float: left;
+    margin-right: 15px;
+    height: 80px;
+    width: 55px;
+}
+
 #encabezado{
     text-align: center;
     background-color: #FFD7D5;
@@ -10,12 +26,17 @@ body{
     display: flex;
 }
 
+#palabra1{
+    text-align: center;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
 
 .field {
     display:flex;
     position:realtive;
-    margin:10em auto;
+    margin:5em auto;
     width:70%;
     flex-direction:row;
     box-shadow:
@@ -46,8 +67,4 @@ body{
     background-color:rgb(26, 188, 156);
     color:white;
     border:none;
-}
-
-#palabra1{
-    text-align: center;
 }

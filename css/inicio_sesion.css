@@ -1,3 +1,38 @@
 body{
     background-color: #DFFFD6;
 }
+
+a.boton{
+    border: 1px solid #2e518b;
+    padding: 10px;
+    background-color: #2e518b;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+
+}
+
+#recuadro{
+    width: 330px;
+    height:500px;
+    background-color: darkseagreen;
+    margin-top: 60px;
+    border-radius: 75px;
+}
+
+img{
+    margin-top: 50px;
+    height: 120px;
+    width: 95px;
+}
+
+input{
+    margin-top: 25px;
+
+}
+
+form{
+    margin-top: 40px;
+}

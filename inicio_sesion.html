@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>INICIA SESION</title>
+    <link href="css/inicio_sesion.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+    <center>
+        <div id="recuadro">
+            <form action=“ingresar.php” method=“POST”>
+                <img src="img/usuario.webp"><br> <br>
+                <input type=“text” placeholder=“usuario” name=“txtusuario” /><br> <br>
+                <input type="password" placeholder=“contraseña” name=“txtpassword” />
+                <br> <br>
+                <a class="boton" onclick="window.location.href='main.html'" target="_blank">INCIAR SESION</a>
+            </form>
+        </div>
+    </center>
 </body>
 </html>

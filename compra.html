@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/compra.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-$END$
-</body>
+<center>
+    <body>
+        <section >
+            <img src="img/libro_encontrado.jpg" id ="imagen1">
+        </section>
+        <aside id="descripcion">
+            Nombre = HTML and CSS: Design and Build Websites <br>
+            Autor = Jon Duckett <br>
+            PRECIO = $ 900 MXN <br><br>
+        </aside>
+        <div id="pago">
+            <aside>¿COMO DESEA REALIZAR SU PAGO?</aside>
+            <input type="radio" name="pago" value="1">CHEQUE<br>
+            <input type="radio" name="pago" value="2">TARJETA DE DEBITO<br>
+            <input type="radio" name="pago" value="3">TARJETA DE CREDITO <br>
+        </div>
+        <br><br>
+        <div id="envio">
+            <aside>¿COMO DESEA RECIBIR SU ENVIO?</aside>
+            <input type="radio" name="envio" value="1">DHL<br>
+            <input type="radio" name="envio" value="2">FEDEX<br>
+            <input type="radio" name="envio" value="3">UPS <br>
+            <input type="radio" name="envio" value="4">OTRA OPCION <br>
+        </div>
+        <br><br>
+        <a class="boton" target="_blank" onclick="window.location.href='main.html'">COMPRAR</a>
+    </body>
+</center>
 </html>

@@ -1,0 +1,33 @@
+body{
+    background-color: lightskyblue;
+    text-align-all: center;
+}
+#imagen1{
+    height: 240px;
+    width: 170px;
+}
+
+#descripcion{
+    font-size: 20px;
+}
+
+#pago{
+    text-align: left;
+    margin-left: 40%;
+}
+#envio{
+    text-align: left;
+    margin-left: 40%;
+}
+
+a.boton{
+    border: 1px solid #2e518b;
+    padding: 10px;
+    background-color: #2e518b;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+
+}
